@@ -1,0 +1,32 @@
+body {
+	font:normal 12px Helvetica, sans-serif;
+	color:#000000;
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+
+#left-column {
+	margin: 0;
+	width:300px;
+	padding:0 30px 30px;
+	text-align: left;
+
+}
+
+#bottom {
+	margin:0;
+	width:0;
+	padding:0 30px 30px;
+	text-align: left;
+
+}
+
+.scroll {
+	height: auto;
+    width:;
+    overflow: auto;
+    border: 1px solid #666;
+    background-color: #ccc;
+    padding: 8px;
+}
