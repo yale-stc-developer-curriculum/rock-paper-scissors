@@ -15,7 +15,13 @@ h3 {
     font-family: 'Helvetica', sans-serif;
     font-size: 25 px;
 }
+.container {
+    height:400px;
+    width:400px;
+    position:relative;
+}
 .bgPic {
+	
 	position:absolute;
 	left:0;
 	top:0;
