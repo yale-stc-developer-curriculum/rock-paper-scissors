@@ -1,0 +1,126 @@
+body{
+	font-family: 'Times','Calibri','Tahoma',sans-serif;
+	background:#85C2FF;
+  	background-size:100%;
+  	color:#ffffff;
+  	
+  	margin:0;
+  	border:0;
+  	padding:0;
+  	overflow: hidden;
+}
+
+a{
+	color:#FF5050; 
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.topbar{
+	background-color:#000000;
+	margin:0;
+	left:0;
+	top:0;
+	width:100%;
+	height:70px;
+	position:fixed;
+}
+
+.topbarcontent{
+	width:700px;
+	margin:0 auto;
+}
+
+#owl{
+	height:70px;
+	margin:0;
+  	border:0;
+  	padding:0;
+}
+
+.right{
+	float:right;
+	list-style:none;
+	display:inline;
+}
+
+.links{
+	list-style: none;
+	display:inline-block;
+	letter-spacing:1px;
+	padding-left:15px;
+	padding-top:10px;
+}
+
+.maincontent{
+	width:700px;
+	margin:0 auto;
+	margin-top:100px;
+}
+
+#carousel{
+	width:700px;
+	height:300px;
+	overflow:hidden;
+}
+
+#carousel ul {
+    width:700px;
+    margin:0;
+    padding:0;
+}
+
+#carousel ul li {
+    width:100%;
+    text-align:center;
+    height:300px;
+    list-style:none;
+    float: left;
+}
+
+#i1,#i2,#i3{
+	width:100%;
+}
+
+.player1{
+  float:left;
+}
+
+.player2{
+  float:right;
+}
+
+#p1, #p2, #feedback {
+  background-color: #52CC52;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+}
+
+#submit:hover, #feedback:hover{
+  background-color: #52CC52;
+}
+
+input, textarea, #p1, #p2, #feedback {
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  outline: none;
+  border: 1pt solid #ddd;
+  font-family:'Times','Calibri','Tahoma',sans-serif;
+  letter-spacing:1px;
+  /*for browser compatibility*/
+  transition: border-color 0.5s;
+  -webkit-transition: border-color 0.5s;
+  -moz-transition: border-color 0.5s;
+}
+
+
+input:focus, textarea:focus {
+  border: 1pt solid #52CC52;
+}

@@ -1,21 +1,43 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Rock, Paper, Scissors</title>
-
-
-
+		<title>Rock, Paper, Scissors</title>
+		<link rel="stylesheet" href="./style.css">
+		<!--jquery script must come first-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="./scooby.js"></script>
 </head>
 <body>
-<p> "hello world" </p>
+	<div class="topbar">
+		<div class="topbarcontent">
+			<h1>Team Scooby!</h1>
+			<ul  class="right">
+				<!--<li class="links"> <a href="http://issuu.com/yalerecord">Issues</a></li>
+				<li class="links"> <a href="http://en.wikipedia.org/wiki/The_Yale_Record">About</a></li>
+				<li class="links"> <a href="mailto:sahil.gupta@yale.edu?subject=hi&body=what's%20up">Contact</a></li>-->
+			</ul>
+		</div>
+	</div>
 
+	<div class="maincontent">
+		<div id="carousel">
+			<ul>
+				<li><img id="iRock" src="./media/rocks.jpg"></li>
+			    <li><img id="iPaper" src="./media/paper.jpg"></li>
+			    <li><img id="iScissors" src="./media/scissors.jpg"/></li>
+			</ul>
+		</div>
 
+		<div class="player1">
+			<div id="p1">Player One</div>
+			<textarea id="P1 Move" class="input" placeholder="Click to play!"></textarea>
+		</div>
 
-
-
-
-
+		<div class="player2">
+			<div id="p2">Player Two</div>
+			<textarea id="P2 Move" class="input" placeholder="Click to play!"></textarea>
+		</div>
+	</div>
 </body>
 
 </html>
