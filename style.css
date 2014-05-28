@@ -18,9 +18,12 @@ h3 {
     font-size: 25 px;
 }
 .img {
+	position: relative;
 	width: 800px;
 	height: auto;
 }
+.text {
+	position: absolute;
 }
 .hButton {
     font-family: 'Helvetica', sans-serif;
