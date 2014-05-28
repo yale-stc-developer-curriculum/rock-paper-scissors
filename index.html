@@ -1,21 +1,169 @@
-<!doctype html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Rock, Paper, Scissors</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Jan Ken Pon!</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
+	<script>
+   
+
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
 
 
+</script>
 
-</head>
+
+ </head> 
+
+
 <body>
 
+<div id="fb-root"></div> 
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> Jan Ken Pon! </a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">About</a></li>
+		<li><a href="#slide3" title="Next Section">Classes</a></li>
+		<li><a  href="#slide4" title="Next Section">Tournaments</a></li>
+		
+	</ul>
+</nav>
+</div>
+</header>	
 
 
+	<div id="slide1">
+		<div class="content">
+            <h2>Welcome. Young Grasshopper. <br>
+            Need more training?</br></h2>
+		    <h1></h1>
+		    
+		     
+	       
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" >
+            <div class="quotes_container">
+		    <h3 class="quotes">Qualifications: 
+		    <br> Our dojo houses the grand masters of jan ken pon. They have spent their lifetime training in the highest reaches of Mt. Fuji, and have competed all across the land. Are you ready to defeat weakness?		   
+		     <p>
+			 <a href="http://www.michaelbransonsmith.net/blog/wp-content/uploads/2011/09/Pei-Mei-Eyes.gif">Meet our grand masters!</a> 
+		    </h3>
+		  <img src="img/sailormoon.jpg" id="sailormoon" align="left"/> 
+		</div> 
+		</div> 
+    </div> 
+	
+	
+   <div id="slide3">
+		<div class="content">
+			<div class="bar">
+
+			   <div class="quotes_container">
+			   	
+  				<h3 class ="quotation2">
+  				Our dojo will bring you great success in jan ken pon!
+  				<br><img src="img/dogovidgame.jpg" id="sailormoon" align="center"/></h3>
+		       
+				
+					 </div>
+				</div> 
+				</div>
+		       
+		    </div> 
+		</div> 
+    </div> 
+	
+	
+	<div id="slide4">
+		<div class="content">
+              <div class="quotes_container">
+		    <h3 class="quotation3">Interested in learning more? 
+		    	
+		    		
+		    	</h3>
+		    <h3 class="quotations4">
+
+		    	<p> Fill out your info below.
+				<br> 
+				We look forward to training with you. 
+			
+			 
+					<form action="">
+					<fieldset>
+					<legend>Send us a message:</legend>
+					Name: <input type="text" size="30"><br>
+					E-mail: <input type="text" size="30"><br>
+					Reason for inquiry: 
+
+					<form action="">
+					<select name="reason">	
+					<option value="GET GAINS">GET GAINS</option>
+					<option value="Become a certified jan ken pon master">Become a dojo master</option>
+					<option value="Destroy all enemies">Destroy your enemies</option>
+					<option value="Impress your friends">Impress your friends</option>
+					</select>
+					</form>
 
 
+					<br>
+
+					<textarea rows="10" cols="30">Your message here. 
+					</textarea>
+					<br><input type="submit" value="Submit">
+					
+					</fieldset>
+					</form>
+				</h3> 
+				</h3>
+			</h3>
+		 
+		</div> 
+		</div> 
+    </div> 
+	
+	
+	
 
 </body>
-
 </html>
