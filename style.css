@@ -4,8 +4,6 @@ body {
 h1 {
 	font-family: 'Helvetica', sans-serif;
 	font-size: 48px;
-	width: 500px
-
 }
 h2 {
 	font-family: 'Helvetica', sans-serif;
@@ -32,6 +30,9 @@ h3 {
     font-size: 30px;
 	float:left;
 	width:25%;
+}
+.header{
+	width: 600px;
 }
 .text {
 	z-index:100;
