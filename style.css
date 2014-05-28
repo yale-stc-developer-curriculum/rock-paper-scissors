@@ -24,6 +24,9 @@ h3 {
 }
 .text {
 	position: absolute;
+	 top: 200px; 
+   left: 0; 
+   width: 100%; 
 }
 .hButton {
     font-family: 'Helvetica', sans-serif;
