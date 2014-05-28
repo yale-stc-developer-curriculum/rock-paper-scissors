@@ -16,13 +16,24 @@ h3 {
     font-size: 25 px;
 }
 .bgPic {
-	background-image: img.jpg;
+	position:absolute;
+	left:0;
+	top:0;
 }
 .hButton {
     font-family: 'Helvetica', sans-serif;
     font-size: 30px;
 	float:left;
 	width:25%;
+}
+.title {
+	z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
 }
 .img {
 	width:800px;
