@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 300px;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 70px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#intro {
+	background-image: url('liger.jpg');
+	color: red;
+}
+
+#names {
+	text-align: center;
+}
+
+.trophy {
+	width: 300px;	
+}
+
+table {
+	font-size: 20px;
+}
+
+#names {
+	background-color: fuchsia;
+}
+#stats {
+	background-color: orange;
+	color: white;
+	padding-bottom: 10px;
+}
