@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+	text-align: center;
+	font-family: impact;
+	color: red;
+}
+
+img{
+	height: 200px;
+}
+
+a{
+	color: orange;
+}
+
+a:hover{
+	color: yellow;
+	font-weight: bold; 
+}
+
+ul{
+	list-style-type: none;
+}
