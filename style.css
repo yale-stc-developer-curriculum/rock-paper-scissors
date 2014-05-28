@@ -17,13 +17,19 @@
 	background-color: gray;
 	width: 40%;
 	height: 60%;
+	line-height:75px;
 }
 
-p,h2,a {
+p,a {
 	color: white;
-	font-family: Verdana;
+	font-family: Raleway, Verdana;
 }
 
+h1 {
+	color: white;
+	font-family: Raleway;
+	font-style: bold;
+}
 body{
 	background-color: black;
 }
