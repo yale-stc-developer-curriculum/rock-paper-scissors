@@ -1,9 +1,7 @@
 body{
 	font-family: "Marker Felt", "Courier New";
-	background:#000000 url('./media/fightclub.jpg') repeat-y;
+  background: linear-gradient(#000033, #f0f0f0);
 	background-size:100%;
-	color:#ffffff;
-  text-shadow: 2px 2px #000000;
 	
 	margin:0;
 	border:0;
@@ -20,19 +18,25 @@ a:hover{
 	text-decoration:underline;
 }
 
+#fightclub {
+  background: url('./media/fightclub.jpg');
+}
+
 .topbar{
 	background-color:#000000;
 	margin:0;
 	left:0;
 	top:0;
 	width:100%;
-	height:70px;
+	height:100px;
 	position:fixed;
 }
 
 .topbarcontent{
 	width:700px;
 	margin:0 auto;
+  padding-top: 15px;
+  color: white;
 }
 
 .right{
