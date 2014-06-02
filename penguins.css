@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	font-family: Helvetica;
+}
+
+p {
+	color:white; 
+	font-size:20px;
+}
+
+h1 {
+	color:white; 
+	font-size:150px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h3 {
+	color:white; 
+	font-size:20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h4 {
+	color:white; 
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.video {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.names {
+	color:white; 
+	font-size:40px;
+	text-align: center;
+	font-weight: bold;
+}
