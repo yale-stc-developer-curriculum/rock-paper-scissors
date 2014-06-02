@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Cookie-Monster';
+  font-style: normal;
+  src: url(CookieMonster.ttf); 
+}
+
+body {
+	text-align: center;
+	font-family: "Cookie-Monster";
+}
+
+.header {
+	background-image: url("http://assets.newmediaretailer.com/12000/12841/chicks.jpg");
+	height: 220px;
+	font-size: 70px;
+}
+
+.container {
+	font-size: 50px;
+	margin-top: 10px;
+	padding-right: 25%;
+	padding-left: 25%;
+	background-color: #FFFF99;
+}
+
+.text {
+	font-family: Arial;
+	font-size: 30px;
+}
+
+td {
+	padding: 50px;
+}
+
+.color-container {
+	
+	padding-left: 25%;
+	/*position: relative;*/
+	/*margin-left: -100px;*/
+	/*margin-right: -100px;*/
+}
