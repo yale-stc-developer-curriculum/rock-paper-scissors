@@ -17,6 +17,7 @@ ul.nav li {
 }
 
 ul.nav li a {
+	margin-bottom: 100px;
 	padding: 10px;
 	text-align: center;
 	margin: 6px 4px 0 0;
