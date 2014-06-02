@@ -82,8 +82,16 @@ a:hover{
   float:left;
 }
 
+.player1:hover{
+  text-decoration:underline;
+}
+
 .player2{
   float:right;
+}
+
+.player2:hover{
+  text-decoration:underline;
 }
 
 #p1, #p2, #feedback {
@@ -105,7 +113,7 @@ input, textarea, #p1, #p2, #feedback {
   font-size: 14px;
   outline: none;
   border: 1pt solid #ddd;
-  font-family:'Times','Calibri','Tahoma',sans-serif;
+  font-family:'Calibri','Tahoma',sans-serif;
   letter-spacing:1px;
   /*for browser compatibility*/
   transition: border-color 0.5s;
@@ -116,4 +124,18 @@ input, textarea, #p1, #p2, #feedback {
 
 input:focus, textarea:focus {
   border: 1pt solid #52CC52;
+}
+
+#winner {
+  width:100%;
+  background-color: teal;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  border: 1pt solid #ddd;
+  font-family:'Calibri','Tahoma',sans-serif;
+  letter-spacing:1px;
+  text-align: center;
+  margin-top: 150px;
 }

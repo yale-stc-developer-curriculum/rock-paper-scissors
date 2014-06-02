@@ -4,16 +4,19 @@ $(document).ready(function() {
     data[0] = "rock";
     data[1] = "paper";
     data[2] = "scissors";
+    $("#p1move").val("---");
+    $("#p2move").val("---");
 
-    $("#snews").click(function() {
-        if(snewsClicks<5){
-            var snewsText = data[Math.floor(Math.random() * data.length)]; //randomly select string from array
-            $("#snewsText").val(snewsText);
-            snewsClicks++;
-        }else{ //rickroll
-            window.location = "http://goo.gl/uw6jv4"
-            snewsClicks=0;
-        }
+    $("#p1").click(function() {
+        var text = data[Math.floor(Math.random() * data.length)]; //randomly select string from array
+        $("#p1move").val(text);
+        showWinner();
+    });
+
+    $("#p2").click(function() {
+        var text = data[Math.floor(Math.random() * data.length)]; //randomly select string from array
+        $("#p2move").val(text);
+        showWinner();
     });
 
     $("#feedback").click(function() {
@@ -32,3 +35,9 @@ $(document).ready(function() {
         })
     }, 3000); //update freq in ms
 });
+
+
+// void showWinner() {
+//     if ($("#p1move").text != "---" && $("#p2move").text != "---")
+//         alert("asdfasdf");
+// }
