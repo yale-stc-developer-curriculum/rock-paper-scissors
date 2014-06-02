@@ -1,47 +1,70 @@
+* Stylesheet for my Plane Rental website*/
+
 body{
-	background-color: black;
-	font-family: Helvetica;
+	background-color: #E0E0E0;
 }
 
-p {
-	color:white; 
-	font-size:20px;
+ul.nav {
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-h1 {
-	color:white; 
-	font-size:150px;
+ul.nav li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+ul.nav li a {
+	padding: 10px;
 	text-align: center;
-	font-weight: bold;
+	margin: 6px 4px 0 0;
+	background-color: cadetblue;
+	color: white;
+	text-decoration: none;
+	border-radius: 25%;
+	font-size: 28px;
 }
 
-h3 {
-	color:white; 
-	font-size:20px;
+ul.nav li a:visited{
+	color: white;
+}
+ul.nav li a:hover {
+	color: black;
+	border: 2px dashed black;
+}
+
+p.site_description{
+	float: left;
+	font-size: 28px;
+}
+
+#main_img{
+	float:right;
+}
+
+h1.grid_12,
+h2 {
 	text-align: center;
-	font-weight: bold;
 }
 
-h4 {
-	color:white; 
-	font-size:50px;
-	text-align: center;
-	font-weight: bold;
+form{
+	padding-top: 30px;
 }
-
-.video {
-	margin-left: auto;
-	margin-right: auto;
+h1.grid_12{
+	padding: 17px 0px;
+	font-size: 55px;
+	font-family: sans-serif, helvetica;
 }
-
-.container {
-	margin-left: auto;
-	margin-right: auto;
+h2{
+	font-style: italic;
+	color: #780000
 }
-
-.names {
-	color:white; 
-	font-size:40px;
-	text-align: center;
-	font-weight: bold;
-}
+h1{
+	float: left;
+	font-size: 55px;
+	text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;}
