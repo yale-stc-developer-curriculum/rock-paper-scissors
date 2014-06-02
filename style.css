@@ -1,0 +1,8 @@
+#nav_bar {
+	list-style: none;
+}
+
+#nav_bar li {
+	float: right;
+	display: block;
+}
