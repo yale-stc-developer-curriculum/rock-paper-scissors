@@ -1,0 +1,26 @@
+body {
+	background-image: url("https://www.pesleague.com/images/home/header_banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+div.container {
+	top: 0;
+	right: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-top: 1em;
+	color: #ffffff;
+	text-align: center;
+	font-size: xx-large;
+}
+p {
+	color: #ffffff;
+	font-size: large;
+	margin-top: 13em;
+	text-align: left;
+	
+}
