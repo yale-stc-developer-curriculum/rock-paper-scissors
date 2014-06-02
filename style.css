@@ -52,24 +52,7 @@ h2 {
 form{
 	padding-top: 30px;
 }
-#website_notes{
-	border: solid red 3px;
-	background-color: black;
-}
-#website_notes p {
-	color:red;
-	font-size: 35px;
-	padding: 20px;
-}
-
-.side_notes{
-	width: 300px;
-	margin-right:0px;
-	float: right;
-	margin-top: 30px;	
-}
 h1.grid_12{
-	border: dashed black 2px;
 	padding: 17px 0px;
 	font-size: 55px;
 	font-family: sans-serif, helvetica;
@@ -81,8 +64,7 @@ h2{
 h1{
 	float: left;
 	font-size: 55px;
-}
-div.jscript {
-	display:flex;
-	align-items:center;
-}
+	text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;}
