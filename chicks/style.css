@@ -9,6 +9,29 @@ body {
 	font-family: "Cookie-Monster";
 }
 
+#nav_bar {
+	list-style: none;
+	text-align: center;
+	margin-right: 35%;
+}
+
+#nav_bar li {
+	float: right;
+	display: block;
+	width: 15%;
+	padding: 5px;
+	border-right: 1px solid #999B9D;
+}
+
+#nav_bar li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#nav_bar li a:hover {
+	color: #999999;
+}
+
 .header {
 	background-image: url("http://assets.newmediaretailer.com/12000/12841/chicks.jpg");
 	height: 220px;
