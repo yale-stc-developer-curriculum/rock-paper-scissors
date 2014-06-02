@@ -8,7 +8,7 @@ h1 {
 	font-size: 48px;
 	width: 500px
 	text-align: center;
-	position: absolute;
+	position: relative;
 }
 h2 {
 	font-family: 'Helvetica', sans-serif;
