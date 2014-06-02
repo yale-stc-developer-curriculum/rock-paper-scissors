@@ -1,13 +1,14 @@
 body{
-	font-family: 'Calibri','Tahoma',sans-serif;
+	font-family: "Marker Felt", "Courier New";
 	background:#000000 url('./media/fightclub.jpg') repeat-y;
-  	background-size:100%;
-  	color:#ffffff;
-  	
-  	margin:0;
-  	border:0;
-  	padding:0;
-  	overflow: hidden;
+	background-size:100%;
+	color:#ffffff;
+  text-shadow: 2px 2px #000000;
+	
+	margin:0;
+	border:0;
+	padding:0;
+	/*overflow: hidden;*/
 }
 
 a{
@@ -138,4 +139,18 @@ input:focus, textarea:focus {
   letter-spacing:1px;
   text-align: center;
   margin-top: 150px;
+}
+
+.bio {
+	border: 5px solid white;
+	padding: 10px 10px;
+	border-radius: 25px;
+	float: center;
+	font-size: 25pt;
+}
+
+.pic {
+	height: 500px;
+	width: 500px;
+	border-radius: 25px;
 }
