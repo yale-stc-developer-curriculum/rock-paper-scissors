@@ -1,0 +1,35 @@
+#img {
+	size: 50%;
+	float: left;
+	display:inline;
+	position: relative;
+
+}
+
+.profile {
+	font-size: 48px;
+	position: absolute;
+	margin-left:2500px;
+	margin-top: -1500px;
+	padding: 25px 75px 25px 75px;
+	border-radius: 50px;
+	float:right;
+	background-color: gray;
+	width: 40%;
+	height: 60%;
+	line-height:75px;
+}
+
+p,a {
+	color: white;
+	font-family: Raleway, Verdana;
+}
+
+h1 {
+	color: white;
+	font-family: Raleway;
+	font-style: bold;
+}
+body{
+	background-color: black;
+}
