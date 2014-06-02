@@ -1,1 +1,29 @@
+<<<<<<< HEAD
+body {
+	background-image: url("http://cutterscreek.com/store/images/ACCharcoalIMG_3673.jpg");
+	font-family: "Marker Felt", "Courier New";
+	color: #0000FF;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+}
 
+#maindescription {
+	font-size: 50pt;
+}
+
+.bio {
+	border: 5px solid white;
+	padding: 10px 10px;
+	border-radius: 25px;
+	float: center;
+	font-size: 25pt;
+}
+
+.pic {
+	height: 500px;
+	width: 500px;
+	border-radius: 25px;
+}
+=======
+
+>>>>>>> acd6695c5bf3605aebfdf0ed8652e622886ae46b
