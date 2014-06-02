@@ -1,37 +1,168 @@
-<!doctype html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Zarocks.Css wins RPS </title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Za Rock Paper Scissors</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
+	<script>
+   
 
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head> 
 
 <audio src="song.m4a" autoplay></audio>
 
-<h1>Prepare to be rocked by Zarocks.css!</h1>
+<body>
 
-<h2 id="subtitle"> Once upon a time, there were three rival pairs: the Gods of Rock, the Gods of Paper, and the Gods of Scissors. The Gods of Rock were called Zarocks. The Gods of Paper were called jankenpon. And the Gods of Scissors were called Team Vivecandres. On a summer morning in New Haven, the cosmos aligned: the three most powerful Rock, Paper, Scissors teams of all time assembled to become one.</h2>
+<div id="fb-root"></div> 
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<center><img src = "logo.png"></center>
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> ZaRPS </a></div>
 
-<img src = "pictureframe.png" id = "werock">
-
-
-<break> <break>
-
-<h2>Ways to lose to us:</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=kkNu-kok7ec#t=8">Play rock.</a></li>
-<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=dFlahQzBG_E#t=3">Play paper.</a></li>
-<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=SCddQjnDbe4#t=9">Play scissors.</a></li>
-<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=fG6la45S-i8#t=2">Be a TV.</a></li>
-</ul>
-
-<h3><a href="https://www.youtube.com/watch?feature=player_detailpage&v=ugRJabiCfYs#t=35">ANYTHING YOU DO, YOU WILL LOSE TO US.</a></h3>
-
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">Photo</a></li>
+		<li><a href="#slide3" title="Next Section">Inspiration</a></li>
+		<li><a  href="#slide4" title="Next Section">Contact</a></li>
+		
+	</ul>
+</nav>
 </div>
-</div>
+</header>	
+
+	<div id="slide1">
+		<div class="content">
+            <h3>Once upon a time, there were three rival pairs: the Gods of Rock, the Gods of Paper, and the Gods of Scissors. The Gods of Rock were called Zarocks. The Gods of Paper were called jankenpon. And the Gods of Scissors were called Team Vivecandres. On a summer morning in New Haven, the cosmos aligned: the three most powerful Rock, Paper, Scissors teams of all time assembled to become one. They united as ZaRockPaperScissors.</h3>
+		   <center><img src = "logo.png"></center>	       
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" >
+            <div class="content">
+            <h3> Meet the urban legends:</h3></div>
+			<img src = "pictureframe.png" id = "werock">
+		</div> 
+		</div> 
+    </div> 
+	
+	
+   <div id="slide3">
+		<div class="content">
+			<div class="bar">
+
+			   <div class="quotes_container">
+			   	
+  				<h3 class ="quotation2">
+  				
+  				<h2>Ways to lose to us:</h2>
+
+					<ul>
+					<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=kkNu-kok7ec#t=8">Play rock.</a></li>
+					<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=dFlahQzBG_E#t=3">Play paper.</a></li>
+					<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=SCddQjnDbe4#t=9">Play scissors.</a></li>
+					<li><a href="https://www.youtube.com/watch?feature=player_detailpage&v=fG6la45S-i8#t=2">Be a TV.</a></li>
+					</ul>
+
+					<a href="https://www.youtube.com/watch?feature=player_detailpage&v=ugRJabiCfYs#t=35">ANYTHING YOU DO, YOU WILL LOSE TO US.</a>
+
+				</h3>		       
+				
+					 </div>
+				</div> 
+				</div>
+		       
+		    </div> 
+		</div> 
+    </div> 
+	
+	
+	<div id="slide4">
+		<div class="content">
+              <div class="quotes_container">
+		    <h3 class="quotation3">Interested in experiencing the POWER for YOURSELF? </h3>
+
+		    <h3 class="quotations4">
+
+		    	<p> Fill out your info below.
+				<br> 
+				We look forward to training with you. 
+			
+			 
+					<form action="">
+					<fieldset>
+					<legend>Send us what you've got:</legend>
+					Name: <input type="text" size="30"><br>
+					E-mail: <input type="text" size="30"><br>
+					Reason for inquiry: 
+
+					<form action="">
+					<select name="reason">	
+					<option value="GET GAINS">GET GAINS</option>
+					<option value="Become a certified jan ken pon master">Become a dojo master</option>
+					<option value="Destroy all enemies">Destroy your enemies</option>
+					<option value="Impress your friends">Impress your friends</option>
+					</select>
+					</form>
+
+
+					<br>
+
+					<textarea rows="10" cols="30">Your message here. 
+					</textarea>
+					<br><input type="submit" value="Submit">
+					
+					</fieldset>
+					</form>
+				</h3> 
+				</h3>
+			</h3>
+		 
+		</div> 
+		</div> 
+    </div> 
+	
+	
+	
 
 </body>
 </html>
